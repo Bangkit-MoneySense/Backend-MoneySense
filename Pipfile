@@ -8,6 +8,7 @@ numpy = "*"
 pillow = "*"
 flask = "*"
 tensorflow = "*"
+google-cloud-firestore = "*"
 
 [dev-packages]
 
