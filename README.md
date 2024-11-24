@@ -1,4 +1,5 @@
 # Backend-MoneySense
+- Create folder /config isinya service account
 
 ## Database (Firestore)
 - table collection predictions
