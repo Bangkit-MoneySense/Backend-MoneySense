@@ -1,3 +1,9 @@
+<br>
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Bangkit-logo.png" alt="Bangkit Logo" width="300">
+</p>
+<br><br>
+
 # 💵 MoneySense Backend
 
 A Flask-based backend for **MoneySense**, a banknote recognition system that predicts the **authenticity** and **denomination** of Indonesian banknotes using machine learning.  
