@@ -1,14 +1,20 @@
+# Dockerfile
+
 FROM python:3.11-slim
 
 WORKDIR /app
-COPY Pipfile Pipfile.lock /app/
 
-RUN pip install pipenv
+# Salin requirements
+COPY requirements.txt /app/
+RUN pip install --no-cache-dir -r requirements.txt
 
-RUN pipenv install --deploy --ignore-pipfile
+# Salin folder config, file model, dan semua file aplikasi lainnya
+COPY config /app/config/
+COPY MoneyDetector.h5 /app/
 COPY . /app/
 
+# Ekspos port 8000
 EXPOSE 8000
 
-# Set perintah untuk menjalankan aplikasi Flask
-CMD ["pipenv", "run", "python", "app.py"]
+# Jalankan aplikasi
+CMD ["python", "app.py"]
