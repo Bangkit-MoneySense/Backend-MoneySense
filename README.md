@@ -10,6 +10,14 @@ A Flask-based backend for **MoneySense**, a banknote recognition system that pre
 
 ---
 
+## 📥 Unduh Aplikasi  
+
+Untuk mengunduh aplikasi **MoneySense**, silakan klik tautan berikut:  
+
+[**Unduh Aplikasi MoneySense**](https://drive.google.com/drive/folders/1SvG98nfTvRpN0mmk7TwkEWpU5Lbxhfxi?usp=sharing)
+
+---
+
 ## 🗂️ Project Structure
 
 - **Backend**: Flask app for handling API endpoints and serving the model.
